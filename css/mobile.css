@@ -1,0 +1,54 @@
+@media only screen and (max-width: 767px) {
+  #nav-bar .container {
+    display: block;
+    margin-bottom: 10px;
+  }
+  h1 {
+    font-size: larger;
+  }
+  .nav-name {
+    display: none;
+  }
+  .icon {
+    display: block;
+  }
+  #job-info .icon {
+    font-size: 340%;
+  }
+  .job-info {
+    margin: 20px;
+  }
+  #job-info .container {
+    display: block;
+  }
+  .fav-content-icon {
+    font-size: 120%;
+  }
+  #about .personal-info {
+    padding: 10px;
+  }
+
+  /* Responsive certificate */
+  h4 {
+    font-size: medium;
+  }
+
+  /* Responsive project */
+  .project-icon {
+    display: block;
+  }
+  .icon-user-1,
+  .project-icon p:nth-child(2) {
+    display: block;
+  }
+  .icon-user-1,
+  .icon-lamp {
+    margin-left: 0;
+  }
+  .icon-project {
+    display: flex;
+  }
+  .icon-project p {
+    margin-bottom: 5px;
+  }
+}

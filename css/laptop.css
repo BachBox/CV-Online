@@ -1,0 +1,324 @@
+@media (min-width: 1280px) {
+  /* Nav-bar CSS Flex*/
+  #nav-bar .container {
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: content;
+  }
+  #nav-bar .container a {
+    border-right: 1px solid gray;
+  }
+  #nav-bar .container a:first-child {
+    border-left: 1px solid gray;
+  }
+  #nav-bar .container a:nth-child(4) {
+    border-left: 1px solid gray;
+  }
+  #nav-bar .icon,
+  #nav-bar .nav-name {
+    padding: 0 10px;
+  }
+  .nav-name p,
+  .nav-name h2,
+  .nav-name {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  #nav-bar i {
+    color: #34a7de;
+  }
+
+  .icon:link {
+    color: black;
+  }
+
+  #nav-bar a {
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  #footer a {
+    text-decoration: none;
+  }
+
+  #nav-bar a:hover {
+    color: white;
+    background-color: #34a7de;
+  }
+
+  #nav-bar {
+    text-align: center;
+  }
+
+  strong,
+  li h4,
+  b {
+    color: #292929;
+  }
+
+  #banner {
+    height: 600px;
+    background-color: black;
+    overflow: hidden;
+  }
+
+  .banner-cv {
+    opacity: 0.6;
+  }
+
+  /* style header */
+  .name {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    line-height: 40px;
+  }
+
+  h1 {
+    font-weight: bold;
+  }
+
+  .nav-name h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .bg-grey .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  .personal-info {
+    background-color: #f0f0f0;
+    padding-left: 50px;
+  }
+
+  .target p {
+    line-height: 22px;
+  }
+  .personal-info li {
+    line-height: 28px;
+  }
+
+  .icon-if a:visited,
+  .icon-if a:link {
+    display: inline-block;
+    color: #34a7de;
+  }
+
+  .bg-grey .mt-40,
+  #footer ul {
+    list-style: none;
+  }
+
+  #job-info .container,
+  #project .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  #job-info .container {
+    align-items: start;
+  }
+
+  .job-info {
+    margin: 30px;
+    column-gap: 0;
+    row-gap: 10px;
+  }
+
+  #job-info .icon {
+    font-size: 400%;
+    width: auto;
+    color: grey;
+  }
+
+  #job-info h4 {
+    margin-bottom: 10px;
+  }
+
+  .hightlight {
+    display: inline-block;
+    padding: 6px 14px;
+    margin-bottom: 4px;
+    background: #34a7de;
+    color: #ffffff;
+    border-radius: 10px;
+  }
+
+  .job-info ul li {
+    margin-bottom: 30px;
+  }
+
+  .timeline {
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+
+  .job-info-content {
+    grid-column: 1/-1;
+    align-self: flex-start;
+    position: relative;
+  }
+
+  .job-info-content ul {
+    list-style: none;
+  }
+  .job-info-content ul li::before {
+    position: absolute;
+    content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #34a7de; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+
+  .fav-content-icon {
+    margin: 50px 0 50px 0;
+    grid-column: 1/-1;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 150%;
+  }
+
+  .fav-content-icon i {
+    color: #34a7de;
+    border: 1px solid;
+    border-color: #34a7de;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fav-content-icon p {
+    font-size: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+  }
+
+  .im-score {
+    height: 4px;
+  }
+
+  .empty-score {
+    background: rgb(206, 206, 206);
+  }
+
+  .job-info.lang,
+  .job-info.skill {
+    align-items: center;
+  }
+
+  /* Certification CSS */
+  #certificate .container {
+    justify-content: center;
+    padding-bottom: 60px;
+  }
+
+  #certificate .section-title {
+    grid-column: 1/-1;
+  }
+
+  .cert-img {
+    width: 400px;
+  }
+
+  .cert-content {
+    display: inline-block;
+    margin-left: 30px;
+  }
+
+  .cert2 {
+    border-left: 1px solid #d6c08d;
+    padding-left: 30px;
+  }
+  .cert1,
+  .cert2,
+  .cert3 {
+    display: flex;
+  }
+  .cert3 {
+    padding-top: 40px;
+
+    grid-column: 1/-1;
+    border-top: 1px solid #d6c08d;
+  }
+
+  /* Projetc-CSS */
+  #project .section-title {
+    grid-column: 1/-1;
+  }
+
+  #project .container {
+    column-gap: 80px;
+  }
+
+  .project-icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+
+  .icon-user-1,
+  .icon-lamp {
+    margin-left: 0;
+  }
+
+  .icon-project p {
+    margin-bottom: 0;
+  }
+  .icon-project {
+    display: flex;
+  }
+
+  h5 {
+    font-size: 150%;
+    font-weight: normal;
+  }
+
+  .project {
+    border: 1px solid black;
+    padding: 10px;
+  }
+
+  .project > h5 {
+    font-size: large;
+  }
+
+  table,
+  td {
+    border-top: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  /* CSS Last Section */
+
+  .footer-icon {
+    grid-column: 1/-1;
+    display: flex;
+    padding: 50px 120px;
+    gap: 40px;
+    justify-content: center;
+  }
+
+  .footer-icon a {
+    color: black;
+  }
+}

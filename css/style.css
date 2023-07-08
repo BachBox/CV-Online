@@ -1,0 +1,244 @@
+/* Common Respondsive CSS */
+/**css text banner**/
+#banner {
+  position: relative;
+}
+
+/* Text over image  */
+.name {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.nav-name {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* remove underline, uppercase */
+#nav-bar a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a {
+  color: black;
+}
+.icon i,
+.icon-if i {
+  color: #34a7de;
+}
+
+.info {
+  list-style: none;
+}
+
+/* CSS job-info */
+
+/* CSS Grid  */
+.job-info {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 3fr 1fr;
+  border: 1px solid;
+  padding: 20px;
+  gap: 40px;
+  grid-template-rows: max-content;
+}
+#job-info .icon {
+  font-size: 400%;
+  width: auto;
+  color: grey;
+}
+.job-info-content {
+  grid-column: 1/-1;
+  position: relative;
+}
+.job-info-content ul {
+  list-style: none;
+}
+
+/* Change bullet color */
+.job-info-content ul li::before {
+  position: absolute;
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #34a7de; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+/* Design icon  */
+.fav-content-icon {
+  grid-column: 1/-1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 150%;
+  gap: 10px;
+}
+.fav-content-icon i {
+  color: #34a7de;
+  border: 1px solid;
+  border-color: #34a7de;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hightlight {
+  display: inline-block;
+  padding: 4px 10px;
+  margin-bottom: 4px;
+  background: #34a7de;
+  color: #ffffff;
+  border-radius: 10px;
+}
+.skill-content p {
+  margin-bottom: 0;
+}
+.skill-score {
+  background: #017cff;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+.im-score {
+  height: 4px;
+}
+.empty-score {
+  background: rgb(206, 206, 206);
+}
+
+/* Projetc-CSS */
+#project .section-title {
+  grid-column: 1/-1;
+}
+
+#project .container {
+  column-gap: 80px;
+}
+
+.project-icon {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.icon-user-1,
+.icon-lamp {
+  margin-left: 20px;
+  font-size: large;
+}
+
+h5 {
+  font-size: 120%;
+  font-weight: normal;
+}
+
+.project > h5 {
+  margin: 10px 0;
+  padding: 10px 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.project {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+table,
+td {
+  border-top: 1px solid black;
+  border-collapse: collapse;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* CSS Last Section */
+
+.footer-icon {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.footer-icon li,
+.footer-icon a {
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+}
+.footer-icon a {
+  display: inline-block;
+  margin-top: 6px;
+}
+
+.footer-icon a {
+  color: black;
+}
+
+.hightlight2 {
+  padding: 8px 8px;
+  background: #34a7de;
+  color: #ffffff;
+  border-radius: 50%;
+  width: 20%;
+  height: 20%;
+}
+
+/* Quest 9 */
+.hidden {
+  display: none;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border: 1px solid #0099ff;
+}
+
+.submit:active {
+  background-color: #25537d;
+}
+.submit {
+  background-color: #3879b7;
+  border-radius: 6px;
+  padding: 5px 12px 8px 12px;
+  color: white;
+  border: none;
+}
+
+/* Quest 10 */
+.job-info:hover {
+  /* background: #e1e1e1;
+  border-top: 1px solid #d0d0d0; */
+  border-style: ridge;
+}
+.view-more,
+.view-less {
+  background-color: rgb(255, 243, 180);
+  justify-self: start;
+  border-radius: 16px;
+  padding-right: 18px;
+}
+.view-less {
+  align-self: flex-end;
+}
+.view-more {
+  align-self: flex-start;
+}
+h4 {
+  font-size: medium;
+}
